@@ -146,3 +146,54 @@
 
 
 
+// Question 7:
+// Write a function called `countOccurrences` that takes an array of elements and a target element as input,
+// and returns the number of occurrences of the target element in the array.
+// Use any array method of your choice.
+
+// Example:
+// Input: [1, 2, 3, 4, 2, 2, 3, 1], 2
+// Output: 3
+
+// Your solution:
+// function countOccurrences(array, target) {
+//   let count = 0;
+//   array.map( (element) => {
+// 	if ( element === target ) {
+// 		count++
+// 	}
+//   } )
+//   return count
+  
+// }
+
+// // Test your function
+// const elements = [1, 2, 3, 4, 2, 2, 3, 1];
+// const targetElement = 2;
+// console.log(countOccurrences(elements, targetElement));
+
+
+
+
+
+// Question 8:
+// Write a function called `reverseArray` that takes an array as input
+// and returns a new array with the elements in reverse order.
+// Use any array method of your choice.
+
+// Example:
+// Input: [1, 2, 3, 4, 5]
+// Output: [5, 4, 3, 2, 1]
+
+// Your solution:
+function reverseArray(array) {
+  // TODO: Your code here
+  
+}
+
+// Test your function
+const inputArray = [1, 2, 3, 4, 5];
+console.log(reverseArray(inputArray));
+
+
+
