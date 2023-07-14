@@ -201,6 +201,28 @@
 
 
 
+// Question 9:
+// Write a function called `getAverage` that takes an array of numbers as input
+// and returns the average (mean) of those numbers.
+// Use any array method or loop of your choice.
+
+// Example:
+// Input: [1, 2, 3, 4, 5]
+// Output: 3
+
+// Your solution:
+function getAverage(numbers) {
+  let sum = 0;
+  let divide = numbers.length
+  numbers.forEach ( ( num ) => sum += num)
+
+  return sum / divide
+  
+}
+
+// Test your function
+const numbers = [1, 2, 3, 4, 5];
+console.log(getAverage(numbers));
 
 
 
