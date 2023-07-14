@@ -127,14 +127,22 @@
 // Output: ['John', 'Jane', 'Jim', 'Sarah']
 
 // Your solution:
-function capitalizeNames(names) {
-  // TODO: Your code here
-  
-}
+// function capitalizeNames(names) {
+// 	let newArray = []
+// 	names.forEach ( ( name ) => {
+// 		name = name.toLowerCase();
+// 		let upperCase = name[0].toUpperCase()
+// 		let lowerCase = name.slice(1)
+// 		let fixedName = upperCase + lowerCase
 
-// Test your function
-const names = ['john', 'JANE', 'jIm', 'SaRaH'];
-console.log(capitalizeNames(names));
+// 		newArray.push( fixedName)
+// 	} ) 
+// 	return newArray
+// }
+
+// // Test your function
+// const names = ['john', 'JANE', 'jIm', 'SaRaH'];
+// console.log(capitalizeNames(names));
 
 
 
