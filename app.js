@@ -211,18 +211,47 @@
 // Output: 3
 
 // Your solution:
-function getAverage(numbers) {
-  let sum = 0;
-  let divide = numbers.length
-  numbers.forEach ( ( num ) => sum += num)
+// function getAverage(numbers) {
+//   let sum = 0;
+//   let divide = numbers.length
+//   numbers.forEach ( ( num ) => sum += num)
 
-  return sum / divide
+//   return sum / divide
   
-}
+// }
+
+// // Test your function
+// const numbers = [1, 2, 3, 4, 5];
+// console.log(getAverage(numbers));
+
+
+
+// Question 10:
+// Write a function called `checkPalindrome` that takes a string as input
+// and returns `true` if the string is a palindrome (reads the same forwards and backwards),
+// and `false` otherwise.
+// Use any array method or loop of your choice.
+
+// Example:
+// Input: 'racecar'
+// Output: true
+
+// Your solution:
+// function checkPalindrome(string) {
+//   let backwards = []
+//   let stringArray = string.split('')
+//   stringArray.forEach((letter) => backwards.unshift( letter ) );
+//   if ( backwards.join('') ===  string ) {
+// 	return true
+//   } else {
+// 	return false
+//   }
+  
+// }
 
 // Test your function
-const numbers = [1, 2, 3, 4, 5];
-console.log(getAverage(numbers));
+const inputString = 'racecar';
+console.log(checkPalindrome(inputString));
 
 
 
