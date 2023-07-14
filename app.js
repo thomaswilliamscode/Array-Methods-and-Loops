@@ -67,20 +67,11 @@
 
 // Your solution:
 // function findIndex(array, target) {
-// 	let length = array.length
-// 	foundTarget = false
-// 	let pos = 0
-//   array.filter ( ( string, index ) => {
-// 	pos++
-// 	if ( string === target ) {
-// 		foundTarget = true
-// 		return array.indexOf(target)
-// 	}
-// 	if ( !foundTarget ) {
+// 	if ( array.indexOf(target) < 0) {
 // 		return -1
+// 	} else {
+// 		return array.indexOf(target);
 // 	}
-//   })
-  
 // }
 
 // // Test your function
@@ -250,8 +241,8 @@
 // }
 
 // Test your function
-const inputString = 'racecar';
-console.log(checkPalindrome(inputString));
+// const inputString = 'racecar';
+// console.log(checkPalindrome(inputString));
 
 
 
