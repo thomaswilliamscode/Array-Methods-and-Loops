@@ -186,14 +186,21 @@
 // Output: [5, 4, 3, 2, 1]
 
 // Your solution:
-function reverseArray(array) {
-  // TODO: Your code here
-  
-}
+// function reverseArray(array) {
+//   let newArray = []
+//   array.forEach( ( element ) => newArray.unshift( element ))
+//   return newArray
+// }
 
-// Test your function
-const inputArray = [1, 2, 3, 4, 5];
-console.log(reverseArray(inputArray));
+// // Test your function
+// const inputArray = [1, 2, 3, 4, 5];
+// console.log(reverseArray(inputArray));
+
+
+
+
+
+
 
 
 
